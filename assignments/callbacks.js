@@ -1,8 +1,17 @@
 const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
+const itemLog = (e) => {
+  return console.log(e);
+}
+
 function firstItem(arr, cb) {
   // firstItem passes the first item of the given array to the callback function.
+  return cb(arr[0]);
 }
+
+firstItem(items, itemLog);
+
+
 
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
