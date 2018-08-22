@@ -63,6 +63,12 @@ contains("pizza", items, itemLog);
 
 /* STRETCH PROBLEM */
 
+// const dupes = ((e, i) => {
+//   for (let i = 0; i < array.length; i++) {
+//     array[i]
+//   }
+// })
+
 function removeDuplicates(array, cb) {
   // removeDuplicates removes all duplicate values from the given array.
   // Pass the duplicate free array to the callback function.
